@@ -1,0 +1,43 @@
+title: "Andreu's Personal Website"
+description: "Welcome to my personal website."
+url: "https://andreufv.github.io"
+baseurl: ""
+author:
+  name: "Andreu"
+  avatar: "/assets/images/avatar.png"
+  bio: "Researcher, educator, computer scientist."
+  location: "Your Location"
+  email: "your@email.com"
+
+theme: "minimal-mistakes-jekyll"
+
+# Site navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Students"
+    url: /students/
+
+# Social Links
+social:
+  github: andreufv
+  linkedin: your-linkedin
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
